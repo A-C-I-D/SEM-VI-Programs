@@ -5,226 +5,306 @@ This repository contains all the laboratory programs and assignments for SPPU (S
 ## Semester VI Laboratory Courses (2019 Pattern)
 
 ### 1. Data Science and Big Data Analytics Laboratory (DSBDAL) - 310256
-**Credit:** 2 | **Hours per week:** 4
+**Teaching Scheme:** 04 Hours/Week | **Credit:** 02  
+**Examination Scheme:** Term Work: 50 Marks | Practical: 25 Marks  
+**Companion Course:** Data Science and Big Data Analytics (310251)
 
-**Assignment Groups:**
+#### Course Objectives:
+- To understand principles of Data Science for the analysis of real-time problems
+- To develop in-depth understanding and implementation of key technologies in Data Science and Big Data Analytics
+- To analyze and demonstrate knowledge of statistical data analysis techniques for decision-making
+- To gain practical, hands-on experience with statistics programming languages and Big Data tools
 
-**Group A: Data Wrangling (Any Two)**
-- **Assignment 1:** Data Wrangling I
-  - Import required Python libraries (NumPy, Pandas, Matplotlib)
-  - Load dataset (e.g., data.csv) into Pandas DataFrame
-  - Data preprocessing: handle missing values using isnull(), describe()
-  - Data formatting and normalization
-  - Turn categorical variables into quantitative variables
+#### Course Outcomes:
+- CO1: Apply principles of Data Science for the analysis of real-time problems
+- CO2: Implement data representation using statistical methods
+- CO3: Implement and evaluate data analytics algorithms
+- CO4: Perform text preprocessing
+- CO5: Implement data visualization techniques
+- CO6: Use cutting-edge tools and technologies to analyze Big Data
 
-- **Assignment 2:** Data Wrangling II
-  - Create "Academic performance" dataset
-  - Scan for missing values and inconsistencies
-  - Handle missing data using appropriate techniques
-  - Scan for outliers and anomalous data
-  - Data transformation and feature engineering
+#### Assignment Groups:
 
-- **Assignment 3:** Data Wrangling III
-  - Descriptive statistics on dataset
-  - Variable descriptions and types identification
-  - Check data frame dimensions
-  - Statistical analysis and data profiling
+**Group A: Data Science (10 Assignments - All Compulsory)**
 
-**Group B: Data Visualization (Any Two)**
-- **Assignment 4:** Data Visualization I
-  - Use Titanic dataset (891 rows)
-  - Plot histogram for ticket fare distribution
-  - Use Seaborn library for pattern identification
-  - Statistical visualization and insights
+1. **Data Wrangling I**
+   - Import Python Libraries (NumPy, Pandas, Matplotlib)
+   - Load dataset from Kaggle into pandas DataFrame
+   - Data Preprocessing: check missing values using isnull(), describe()
+   - Data Formatting and Normalization
+   - Turn categorical variables into quantitative variables
 
-- **Assignment 5:** Data Visualization II
-  - Box plot for age distribution by gender and survival
-  - Analyze Titanic dataset relationships
-  - Gender-based survival analysis
+2. **Data Wrangling II**
+   - Create "Academic performance" dataset
+   - Handle missing values and inconsistencies
+   - Deal with outliers
+   - Apply data transformations
 
-- **Assignment 6:** Data Visualization III
-  - Download Iris flower dataset or similar
-  - Create histograms for each feature
-  - Identify feature types (numeric, nominal)
-  - Illustrate feature distributions
+3. **Descriptive Statistics - Measures of Central Tendency and Variability**
+   - Summary statistics (mean, median, min, max, std deviation)
+   - Statistical details of Iris dataset species
 
-**Group C: Text Analytics (Any Two)**
-- **Assignment 7:** Text Analytics I
-  - Extract sample document and apply text analytics
-  - Tokenization, POS tagging, stop words removal
-  - Stemming and lemmatization
-  - Create representation of document using Term Frequency and TF-IDF
+4. **Data Analytics I**
+   - Linear Regression Model using Boston Housing Dataset
+   - Predict home prices
 
-- **Assignment 8:** Text Analytics II
-  - Document similarity analysis
-  - Text preprocessing and cleaning
-  - Feature extraction techniques
+5. **Data Analytics II**
+   - Logistic Regression on Social_Network_Ads.csv
+   - Compute Confusion Matrix (TP, FP, TN, FN, Accuracy, Error rate, Precision, Recall)
 
-- **Assignment 9:** Text Analytics III
-  - Sentiment analysis on reviews/tweets
-  - Opinion mining techniques
-  - Polarity and subjectivity analysis
+6. **Data Analytics III**
+   - Simple Naïve Bayes classification on iris.csv
+   - Compute Confusion Matrix
 
-**Group D: Data Analytics (Any Two)**
-- **Assignment 10:** Linear Regression
-  - Implement Simple Linear Regression
-  - Predict continuous target variable
-  - Model evaluation using R², RMSE
-  - Visualization of regression line
+7. **Text Analytics**
+   - Document preprocessing: Tokenization, POS Tagging, stop words removal, Stemming, Lemmatization
+   - Calculate Term Frequency and Inverse Document Frequency
 
-- **Assignment 11:** Logistic Regression
-  - Binary classification problem
-  - Implement Logistic Regression
-  - Confusion matrix and accuracy metrics
-  - ROC curve analysis
+8. **Data Visualization I**
+   - Use Titanic dataset (891 rows)
+   - Plot histogram for ticket fare distribution using Seaborn
 
-- **Assignment 12:** Clustering
-  - Implement K-Means clustering algorithm
-  - Hierarchical clustering
-  - Determine optimal number of clusters
-  - Visualization of clusters
+9. **Data Visualization II**
+   - Box plot for age distribution by gender and survival (Titanic dataset)
 
-**Group E: Mini Project**
-- Apply data science concepts on real-world dataset
-- Complete pipeline: Data collection → Preprocessing → Analysis → Visualization → Insights
-- Documentation and presentation
+10. **Data Visualization III**
+    - Download Iris dataset
+    - Create histogram for each feature
+    - Create boxplot for each feature
+    - Compare distributions and identify outliers
+
+**Group B: Big Data Analytics - JAVA/SCALA (Any 3 Assignments)**
+
+1. WordCount application using Hadoop MapReduce framework
+2. Process log file using MapReduce
+3. Weather data analysis (sample_weather.txt)
+4. Simple program in SCALA using Apache Spark
+
+**Group C: Mini Projects/Case Study - PYTHON/R (Any 2)**
+
+1. GINA (Global Innovation Network and Analysis) case study
+2. Tweet classification (positive/negative) using Kaggle dataset
+3. Movie recommendation model using scikit-learn
+4. COVID-19 vaccine data analytics (covid_vaccine_statewise.csv)
+5. **Mandatory:** Hadoop Ecosystem case study (HDFS, YARN, MapReduce, Spark, PIG, HIVE, HBase, Mahout, Spark MLLib, Solr, Lucene)
 
 ---
 
 ### 2. Web Technology Laboratory (WTL) - 310257
-**Credit:** 1 | **Hours per week:** 2
+**Teaching Scheme:** 02 Hours/Week | **Credit:** 01  
+**Examination Scheme:** Term Work: 25 Marks | Oral: 25 Marks  
+**Companion Course:** Web Technology (310252)
 
-**Assignment List:**
+#### Course Objectives:
+- To learn the web-based development environment
+- To use client-side and server-side web technologies
+- To design and develop web applications using front-end technologies and backend databases
 
-**Group A: Basic Web Technologies (Any Two)**
-- **Assignment 1:** Website Case Study
-  - Analyze existing websites
-  - Study design issues and best practices
-  - Document findings on layout, navigation, responsiveness
+#### Course Outcomes:
+- CO1: Understand the importance of website planning and website design issues
+- CO2: Apply the client-side and server-side technologies for web application development
+- CO3: Analyze the web technology languages, frameworks and services
+- CO4: Create three-tier web-based applications
 
-- **Assignment 2:** HTML5 & CSS3
-  - Create responsive web pages using HTML5
-  - Apply CSS3 for styling (Grid, Flexbox)
-  - Form validation and semantic HTML
+#### Assignment List (All Compulsory):
 
-- **Assignment 3:** JavaScript Basics
-  - Client-side scripting
-  - DOM manipulation
-  - Event handling and form validation
+1. **Case Study**
+   - Visit 5+ websites
+   - Evaluate and document: Purpose, Liked features, Disliked features, Overall evaluation
+   - Learn website design issues
 
-**Group B: Advanced Web Technologies (Any Two)**
-- **Assignment 4:** JavaScript Advanced
-  - AJAX for asynchronous communication
-  - JSON data handling
-  - REST API consumption
+2. **HTML and CSS**
+   - Implement index.htm using HTML (headings, frames, tables, images, lists, links, forms)
+   - Use Internal CSS, Inline CSS, External CSS
 
-- **Assignment 5:** PHP & MySQL
-  - Server-side scripting with PHP
-  - Database connectivity
-  - CRUD operations implementation
+3. **XML with DTD/Schema**
+   - Design XML document for employee information
+   - Demonstrate use of DTD and XML Schema
+   - Display content using CSS/XSL
 
-- **Assignment 6:** Node.js & Express
-  - Server setup using Node.js
-  - RESTful API development
-  - MongoDB integration
+4. **JavaScript Application**
+   - Design UI using HTML, CSS
+   - JavaScript validation
+   - Use prompt and alert windows
+   - Example: Simple calculator with validation
 
-**Group C: Frameworks & Libraries (Any Two)**
-- **Assignment 7:** Bootstrap Framework
-  - Responsive web design
-  - Bootstrap components (navbar, cards, forms)
-  - Grid system implementation
+5. **Java Servlet**
+   - Create database table (e.g., ebookshop)
+   - Display table content using Servlet
 
-- **Assignment 8:** React.js/Angular
-  - Component-based architecture
-  - State management
-  - Single Page Application (SPA)
+6. **JSP (Java Server Pages)**
+   - Create database table (e.g., students_info)
+   - Display content using JSP
 
-- **Assignment 9:** Web Application Development
-  - Full-stack web application
-  - Authentication and session management
-  - Deployment on cloud (Heroku/AWS/Netlify)
+7. **PHP and MySQL**
+   - Create database tables in MySQL
+   - PHP connection with MySQL
+   - Implement CRUD operations
 
-**Group D: Mini Project**
-- Complete web application with frontend and backend
-- Database integration
-- Security implementation
-- Hosted deployment
+8. **Struts Framework**
+   - Design login page (name, mobile, email, login button)
+   - Perform validations
+   - Display appropriate messages
+
+9. **Angular JS**
+   - Design registration and login page
+
+10. **EJB (Enterprise Java Beans)**
+    - Design business interface
+    - Example: Banking transactions (deposit/withdraw)
+
+11. **Mini Project**
+    - Dynamic web application using learned technologies
+    - Must include business functionality
 
 ---
 
 ### 3. Laboratory Practice II (LP-II) - 310258
-**Credit:** 2 | **Hours per week:** 4
+**Teaching Scheme:** 04 Hours/Week | **Credit:** 02  
+**Examination Scheme:** Term Work: 50 Marks | Practical: 25 Marks  
+**Companion Course:** Artificial Intelligence (310253) and Elective II (310254)
 
-**Assignments from:** Artificial Intelligence (310253) and Elective II (310254)
+#### Course Objectives:
+- To learn and apply various search strategies for AI
+- To formalize and implement constraints in search problems
+- To understand concepts of Information Security / Augmented and Virtual Reality / Cloud Computing / Software Modeling and Architectures
 
-**Artificial Intelligence Assignments:**
+#### Course Outcomes:
 
-**Group A: Search Algorithms (Any Two)**
-- **Assignment 1:** Depth First Search (DFS) and Breadth First Search (BFS)
-  - Graph traversal algorithms
-  - Implementation on 8-puzzle problem or similar
+**Artificial Intelligence:**
+- CO1: Design system using different informed/uninformed search or heuristic approaches
+- CO2: Apply basic principles of AI in solutions requiring problem solving, inference, perception, knowledge representation, and learning
+- CO3: Design and develop an expert system
 
-- **Assignment 2:** A* Algorithm
-  - Heuristic search implementation
-  - Path finding problems
-  - Cost function optimization
+**Elective II (Choose ONE):**
+- CO4-CO6: Use tools, knowledge, and concepts specific to chosen elective
 
-- **Assignment 3:** Constraint Satisfaction Problems
-  - N-Queens problem
-  - Graph coloring
-  - Backtracking algorithms
+---
 
-**Group B: Game Playing (Any Two)**
-- **Assignment 4:** Minimax Algorithm
-  - Game tree generation
-  - Optimal move selection
-  - Tic-Tac-Toe implementation
+## Part I: Artificial Intelligence Assignments
 
-- **Assignment 5:** Alpha-Beta Pruning
-  - Optimization of Minimax
-  - Game playing strategy
+**Group A (All Compulsory)**
 
-**Group C: Machine Learning (Any Two)**
-- **Assignment 6:** Expert System
-  - Rule-based system development
-  - Knowledge representation
-  - Inference engine implementation
+1. **Search Algorithms**
+   - Implement Depth First Search (DFS)
+   - Implement Breadth First Search (BFS)
+   - Use undirected graph with recursive algorithm
 
-- **Assignment 7:** Neural Networks
-  - Perceptron or multi-layer implementation
-  - Backpropagation algorithm
-  - Classification problems
+2. **A* Algorithm**
+   - Implement for game search problem
 
-- **Assignment 8:** Chatbot Development
-  - Natural Language Processing basics
-  - Intent recognition
-  - Response generation
+3. **Greedy Search Algorithm**
+   - Implement for any application:
+     - Selection Sort
+     - Minimum Spanning Tree
+     - Single-Source Shortest Path
+     - Job Scheduling
+     - Prim's/Kruskal's/Dijkstra's Algorithm
 
-**Elective II Assignments (Based on chosen elective):**
+**Group B**
 
-**For Information Security (310254A):**
-- Cryptography algorithms (Caesar, Playfair, Hill Cipher)
-- RSA, Diffie-Hellman key exchange
-- Digital signatures and certificates
-- Firewall and intrusion detection
+4. **Constraint Satisfaction Problem**
+   - Branch and Bound
+   - Backtracking
+   - N-Queens problem or Graph Coloring
 
-**For Augmented and Virtual Reality (310254B):**
-- AR application using ARCore/ARKit
-- VR scene development using Unity3D
-- 3D modeling and rendering
-- Interaction design
+5. **Chatbot Development**
+   - Elementary chatbot for customer interaction
 
-**For Cloud Computing (310254C):**
-- Cloud service deployment (AWS/Azure/GCP)
-- Virtual machine creation and management
-- Docker containerization
-- Load balancing and auto-scaling
+**Group C**
 
-**For Software Modeling and Architectures (310254D):**
-- UML diagrams (Use Case, Class, Sequence)
-- Design patterns implementation
-- Architectural styles (MVC, Microservices)
-- Software design documentation
+6. **Expert System**
+   - Choose one domain:
+     - Information management
+     - Hospitals and medical facilities
+     - Help desk management
+     - Employee performance evaluation
+     - Stock market trading
+     - Airline scheduling
+
+---
+
+## Part II: Elective II Assignments
+
+### Option A: Information Security (Any 5)
+
+1. String XOR/AND encryption (Hello World)
+2. Transposition technique encryption/decryption
+3. DES Algorithm implementation
+4. AES Algorithm implementation
+5. RSA Algorithm implementation
+6. Diffie-Hellman Key Exchange (HTML/JavaScript)
+7. MD5 message digest calculation (Java)
+
+### Option B: Cloud Computing (All Compulsory)
+
+1. Case study: Microsoft Azure OR Amazon EC2
+2. Installation: Google App Engine OR KVM Virtualization
+3. SalesForce.com application using Apex
+4. Custom application development using Salesforce Cloud
+5. Mini-Project: Setup own cloud for SaaS with HDFS
+
+### Option C: Augmented and Virtual Reality
+
+**Mandatory: Assignments 1, 2, 3, 7 + Any 2 from 4, 5, 6**
+
+1. Unity and Visual Studio installation and setup
+2. VR device demonstration (HTC Vive/Google Daydream/Samsung Gear VR)
+3. Unity scene with cube, plane, sphere (transformations, video, audio)
+4. Material and texture application with dynamic changes (C#)
+5. Marker-based AR app with video playback
+6. Vuforia AR app (plane detection, marker tracking, object tracking)
+7. **Mini-Project:** Multiplayer VR battlefield game OR AR treasure hunt
+
+### Option D: Software Modeling and Architectures
+
+**Mandatory: 1, 2, 3 or 4, 5, and 6**
+
+1. Use case diagram for library system
+2. Class diagram for online shopping system
+3. Sequence diagram for online shopping
+4. Use case diagram for travel agent system
+5. **Mini-Project:** System design with architectural styles and design patterns
+6. Documentation with templates
+
+---
+
+## Tools and Technologies Required
+
+### For DSBDAL:
+- **Software:** Python 3.x, Jupyter Notebook/Google Colab
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, NLTK
+- **Big Data:** Hadoop, Spark, Scala
+- **Datasets:** Titanic, Iris, Boston Housing, UCI ML Repository
+
+### For WTL:
+- **Editors:** VS Code, Sublime Text, WebStorm
+- **Servers:** XAMPP/WAMP (PHP & MySQL)
+- **Runtime:** Node.js and npm
+- **Database:** MySQL, MongoDB
+- **Version Control:** Git
+
+### For LP-II (AI):
+- **Languages:** Python 3.x, Java
+- **Libraries:** TensorFlow, Keras, Scikit-learn
+- **Others:** Prolog (expert systems)
+
+### For LP-II (Information Security):
+- **Languages:** Java, C, C++, Python
+- **Libraries:** OpenSSL, Cryptography libraries
+
+### For LP-II (Cloud Computing):
+- **Platforms:** AWS/Azure/Google Cloud
+- **Tools:** SalesForce, KVM, Docker
+
+### For LP-II (AR/VR):
+- **Software:** Unity3D, Blender, Visual Studio
+- **SDKs:** VRTK, ARCore, ARKit, Vuforia
+- **Devices:** HTC Vive, Google Daydream, Samsung Gear VR
+
+### For LP-II (Software Modeling):
+- **Tools:** StarUML, Lucidchart, Draw.io, Enterprise Architect
+- **Development:** HTML5, Bootstrap, jQuery, MySQL/MongoDB, Node.js
 
 ---
 
@@ -234,144 +314,242 @@ This repository contains all the laboratory programs and assignments for SPPU (S
 SEM-VI-Programs/
 ├── DSBDAL_310256/
 │   ├── Group_A/
+│   │   ├── Assignment_01_Data_Wrangling_I/
+│   │   ├── Assignment_02_Data_Wrangling_II/
+│   │   └── ... (up to Assignment 10)
 │   ├── Group_B/
-│   ├── Group_C/
-│   ├── Group_D/
-│   ├── Group_E/
+│   │   ├── Assignment_01_WordCount_MapReduce/
+│   │   └── ... (3 assignments)
+│   ├── Group_C_Mini_Projects/
+│   │   ├── Project_01_GINA/
+│   │   ├── Project_02_Tweet_Classification/
+│   │   └── ... (2 projects)
 │   └── README.md
+│
 ├── WTL_310257/
-│   ├── Group_A/
-│   ├── Group_B/
-│   ├── Group_C/
-│   ├── Group_D/
+│   ├── Assignment_01_Case_Study/
+│   ├── Assignment_02_HTML_CSS/
+│   ├── Assignment_11_Mini_Project/
 │   └── README.md
+│
 ├── LP-II_310258/
-│   ├── Artificial_Intelligence/
+│   ├── Part_I_Artificial_Intelligence/
 │   │   ├── Group_A/
+│   │   │   ├── Assignment_01_DFS_BFS/
+│   │   │   ├── Assignment_02_A_Star/
+│   │   │   └── Assignment_03_Greedy_Search/
 │   │   ├── Group_B/
+│   │   │   ├── Assignment_04_CSP/
+│   │   │   └── Assignment_05_Chatbot/
 │   │   └── Group_C/
-│   ├── Elective_II/
-│   │   ├── Information_Security/
-│   │   ├── AR_VR/
-│   │   ├── Cloud_Computing/
-│   │   └── Software_Modeling/
-│   └── README.md
-└── README.md
+│   │       └── Assignment_06_Expert_System/
+│   │
+│   └── Part_II_Elective/
+│       ├── Information_Security/
+│       ├── Cloud_Computing/
+│       ├── AR_VR/
+│       └── Software_Modeling/
+│
+└── README.md (this file)
 ```
 
-## Tools and Technologies Required
-
-### For DSBDAL:
-- Python 3.x
-- Jupyter Notebook / Google Colab
-- Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, NLTK
-- Datasets: Titanic, Iris, UCI ML Repository datasets
-
-### For WTL:
-- VS Code / Sublime Text / WebStorm
-- Web Browsers (Chrome/Firefox with Developer Tools)
-- XAMPP / WAMP (for PHP & MySQL)
-- Node.js and npm
-- MongoDB
-- Git for version control
-
-### For LP-II (AI):
-- Python 3.x with AI libraries (TensorFlow, Keras, scikit-learn)
-- Prolog (for expert systems)
-- Java (for game algorithms)
-- Development IDE (PyCharm, VS Code, IntelliJ)
-
-### For LP-II (Elective II):
-**Information Security:**
-- Java / Python / C++
-- OpenSSL, Cryptography libraries
-- Network tools (Wireshark, Nmap)
-
-**AR/VR:**
-- Unity3D / Unreal Engine
-- ARCore (Android) / ARKit (iOS)
-- Blender (3D modeling)
-
-**Cloud Computing:**
-- AWS / Azure / Google Cloud account
-- Docker
-- Kubernetes (optional)
-
-**Software Modeling:**
-- UML tools (StarUML, Lucidchart, draw.io)
-- IDE for design pattern implementation
-- Documentation tools
+---
 
 ## Assessment Guidelines
 
-Each laboratory course follows SPPU assessment pattern:
-- **Continuous Assessment:** Regular assignment submissions, code reviews
-- **Term Work:** Minimum 8-10 assignments completion mandatory
-- **Lab Exam:** Practical examination at the end of semester
-- **Mini Project:** Required for final assessment
+### Term Work Assessment:
+- Continuous assessment based on overall laboratory performance
+- Parameters: Timely completion, performance, innovation, efficient code, punctuality
+- Regular assignment submissions and code reviews mandatory
+- Monthly practical examinations recommended
 
-### Journal Format:
-- Certificate and index
-- Assignment title, objectives, problem statement
-- Theory/concept explanation
-- Algorithm/flowchart (where applicable)
-- Source code with detailed comments
-- Test cases and outputs
-- Analysis and conclusion
-- Date and signature
+### Laboratory Journal:
+**Must Include:**
+- Certificate and Index
+- Assignment write-up with:
+  - Title, Date of Completion
+  - Objectives and Problem Statement
+  - Software/Hardware Requirements
+  - Theory/Concept
+  - Algorithm/Flowchart
+  - Test cases and Test Data Set
+  - Mathematical Model (if applicable)
+  - Conclusion/Analysis
+  - Assessor's signature and grade
 
-## How to Use This Repository
+**Softcopy Submission:**
+- Program codes with sample outputs
+- Use DVD/digital media (encouraged for Green IT)
+- Avoid printing papers (environment awareness)
 
-1. Each lab folder contains assignment-wise subfolders
-2. Navigate to specific assignment for:
-   - Problem statement
-   - Solution code
-   - Sample input/output
-   - Documentation
-3. Follow the README in each subfolder for specific instructions
-4. Install required dependencies mentioned in requirements.txt (if present)
+### Practical Examination:
+- Problem statement decided by internal and external examiners
+- Maximum weightage on satisfactory implementation
+- Questions to test understanding of fundamentals
+- Evaluation of effective and efficient implementation
+
+---
 
 ## Important Notes
 
-- **Group Selection:** Students must complete specified number of assignments from each group
-- **Code Quality:** Focus on clean, documented, and efficient code
-- **Plagiarism:** Strictly prohibited; understand concepts before implementation
-- **Deadlines:** Maintain regular submission schedule as per college calendar
-- **Practical Exam:** Be prepared to execute and explain any completed assignment
+1. **Attendance:** Minimum attendance as prescribed by SPPU is mandatory
+2. **Assignment Completion:**
+   - DSBDAL: All 10 from Group A + Any 3 from Group B + Any 2 from Group C
+   - WTL: All 11 assignments compulsory
+   - LP-II: All AI assignments + Assignments from chosen elective
+3. **Mini Projects:** Required for DSBDAL, WTL, and some electives
+4. **Group Work:** Mini projects typically in groups of 2-3 students
+5. **Open Source:** Use of open-source software is highly encouraged
+6. **Virtual Labs:** Available for practice and reference
+
+---
+
+## Virtual Laboratory Resources
+
+- **DSBDAL:** http://cse20-iiith.vlabs.ac.in/
+- **WTL:** General web development tutorials
+- **LP-II (Software Modeling):** http://vlabs.iitkgp.ernet.in/se
+- **LP-II (Information Security):** http://cse29-iiith.vlabs.ac.in
+
+---
+
+## References and Learning Resources
+
+### Official SPPU Resources:
+- Curriculum Document: [TE Computer 2019 Course](https://www.aitpune.com/Documents/Comp/TE_Computer_2019_Course_revised_draft_7June2021.pdf)
+- SPPU Official Website: http://unipune.ac.in
+- Syllabus Portal: http://unipune.ac.in/university_files/syllabi.htm
+
+### Online Learning Platforms:
+- **NPTEL:** https://nptel.ac.in/
+- **Kaggle:** https://www.kaggle.com/ (for datasets)
+- **Coursera, edX, Udemy:** Various courses on related topics
+
+### Programming Documentation:
+- Python: https://docs.python.org/
+- scikit-learn: https://scikit-learn.org/
+- MDN Web Docs: https://developer.mozilla.org/
+- MongoDB: https://docs.mongodb.com/
+
+---
+
+## How to Use This Repository
+
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository-url>
+   cd SEM-VI-Programs
+   ```
+
+2. **Navigate to Specific Lab:**
+   ```bash
+   cd DSBDAL_310256/Group_A/Assignment_01
+   ```
+
+3. **Follow README in Each Assignment:**
+   - Each assignment folder contains:
+     - Problem statement
+     - Solution approach
+     - Source code
+     - Sample input/output
+     - Documentation
+
+4. **Install Dependencies:**
+   ```bash
+   # For Python assignments
+   pip install -r requirements.txt --break-system-packages
+   
+   # For Node.js assignments
+   npm install
+   ```
+
+5. **Run Programs:**
+   - Follow specific instructions in assignment README
+   - Test with provided test cases
+   - Verify outputs
+
+---
 
 ## Contributing
 
-If you find any errors, want to add more programs, or improve documentation:
+We welcome contributions! To contribute:
+
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/new-assignment`)
+3. Commit your changes (`git commit -m 'Add new assignment solution'`)
+4. Push to the branch (`git push origin feature/new-assignment`)
+5. Open a Pull Request
 
-## References
+### Contribution Guidelines:
+- Follow proper code documentation
+- Include comments explaining logic
+- Provide test cases
+- Update README if necessary
+- Follow coding standards
+- Ensure no plagiarism
 
-- SPPU Official Syllabus Document: [TE Computer 2019 Course](https://www.aitpune.com/Documents/Comp/TE_Computer_2019_Course_revised_draft_7June2021.pdf)
-- Official Python Documentation: https://docs.python.org/
-- scikit-learn Documentation: https://scikit-learn.org/
-- MDN Web Docs: https://developer.mozilla.org/
-- SPPU Question Papers: https://www.sppuquestionpapers.com/
+---
 
-## License
+## Academic Integrity
 
-This repository is for educational purposes only. Follow SPPU guidelines for academic integrity.
+**Important:**
+- This repository is for **educational purposes only**
+- Use as **reference**, not for direct submission
+- **Understand concepts** before implementing
+- **Plagiarism is strictly prohibited**
+- Follow SPPU guidelines for academic integrity
+- Cite sources when using external code/resources
+
+---
 
 ## Disclaimer
 
-This repository is created by students for students. While we strive for accuracy:
+- Created by students for students
 - Verify assignments with your college lab manual
 - Consult faculty for any discrepancies
-- Use as reference, not as sole learning material
 - Programs may need modifications based on specific requirements
+- Not officially endorsed by SPPU or affiliated colleges
+
+---
+
+## Support and Contact
+
+For queries, suggestions, or contributions:
+- **Open an Issue:** Use GitHub issues for bugs/questions
+- **Pull Request:** For code contributions
+- **Email:** Contact repository maintainers (if applicable)
+
+---
+
+## License
+
+This repository is for educational purposes. Please respect:
+- SPPU academic guidelines
+- Intellectual property rights
+- Open-source licenses of used libraries
+- Academic integrity policies
 
 ---
 
 **Last Updated:** February 2026  
+**Academic Year:** 2021-22 onwards  
 **Pattern:** SPPU 2019 Pattern  
 **Semester:** VI (Third Year, Second Semester)  
 **Branch:** Computer Engineering
 
-For queries, suggestions, or contributions, please open an issue or contact the repository maintainers.
+---
+
+## Quick Reference Card
+
+| Course Code | Course Name | Hours/Week | Credits | Marks |
+|-------------|-------------|------------|---------|-------|
+| 310256 | DSBDA Laboratory | 04 | 02 | TW: 50, PR: 25 |
+| 310257 | Web Technology Lab | 02 | 01 | TW: 25, OR: 25 |
+| 310258 | Laboratory Practice II | 04 | 02 | TW: 50, PR: 25 |
+
+**Total Laboratory Credits:** 05  
+**Total Laboratory Hours:** 10 hours/week
+
+---
+
+*For detailed course objectives, outcomes, and assignment specifications, refer to individual laboratory folders and the official SPPU curriculum document.*
