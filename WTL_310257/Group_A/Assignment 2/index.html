@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Bites Restaurant</h1>
+        <p>Welcome to our cozy dining experience!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div>
+            <h2>Enjoy Authentic Cuisine</h2>
+            <p>Experience the best flavors in town.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Margherita Pizza</td>
+                        <td>Fresh tomatoes, mozzarella, basil</td>
+                        <td>Rs.1200.99</td>
+                    </tr>
+                    <tr>
+                        <td>Spaghetti Carbonara</td>
+                        <td>Creamy pasta with bacon and eggs</td>
+                        <td>Rs.1400.99</td>
+                    </tr>
+                    <tr>
+                        <td>Grilled Salmon</td>
+                        <td>Herb-crusted salmon with vegetables</td>
+                        <td>Rs.1800.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Special Offers</h3>
+        <ul>
+            <li>Buy one pizza, get second half off</li>
+            <li>Free dessert with main course</li>
+            <li>Happy hour drinks: 20% off</li>
+        </ul>
+
+        <h3>Image Gallery</h3>
+        <a href="restaurant.jpg" target="_blank">
+            <img src="restaurant.jpg" alt="Restaurant Interior" width="300" height="200" style="border: 2px solid #333;"> <!-- Inline CSS -->
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Book a table or send us a message.</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message" style="background-color: #333; color: white; border: none; padding: 0.5em; cursor: pointer;"> <!-- Inline CSS -->
+        </form>
+
+        <h3>Find Us</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153168!3d-37.81627927975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d5a32e0b4e0!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Frame using iframe -->
+    </section>
+
+    <footer>
+        <p class="highlight">Visit us today!</p> <!-- Using internal CSS class -->
+    </footer>
+</body>
+</html>

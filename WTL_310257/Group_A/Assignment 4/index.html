@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .calculator {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        #display {
+            width: 100%;
+            height: 50px;
+            font-size: 24px;
+            text-align: right;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        button {
+            height: 50px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #666;
+            color: white;
+        }
+        button:hover {
+            background-color: #888;
+        }
+        .operator {
+            background-color: #f39c12;
+        }
+        .operator:hover {
+            background-color: #e67e22;
+        }
+        .equals {
+            background-color: #27ae60;
+        }
+        .equals:hover {
+            background-color: #229954;
+        }
+        .clear {
+            background-color: #e74c3c;
+        }
+        .clear:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')" class="operator">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')" class="operator">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')" class="operator">*</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()" class="equals">=</button>
+            <button onclick="appendToDisplay('/')" class="operator">/</button>
+            <button onclick="clearDisplay()" class="clear">C</button>
+            <button onclick="square()" class="operator">x²</button>
+            <button onclick="sqrt()" class="operator">√</button>
+            <button onclick="promptInput()" class="operator">Prompt</button>
+        </div>
+    </div>
+
+    <script>
+        let display = document.getElementById('display');
+
+        function appendToDisplay(value) {
+            display.value += value;
+        }
+
+        function clearDisplay() {
+            display.value = '';
+        }
+
+        function calculate() {
+            try {
+                let result = eval(display.value);
+                if (!isFinite(result)) {
+                    throw new Error('Invalid operation');
+                }
+                display.value = result;
+            } catch (error) {
+                alert('Invalid expression! Please check your input.');
+                clearDisplay();
+            }
+        }
+
+        function square() {
+            let num = parseFloat(display.value);
+            if (isNaN(num)) {
+                alert('Please enter a valid number first!');
+                return;
+            }
+            display.value = num * num;
+        }
+
+        function sqrt() {
+            let num = parseFloat(display.value);
+            if (isNaN(num) || num < 0) {
+                alert('Please enter a valid non-negative number!');
+                return;
+            }
+            display.value = Math.sqrt(num);
+        }
+
+        function promptInput() {
+            let input = prompt('Enter a number:');
+            if (input === null) return; // Cancelled
+            let num = parseFloat(input);
+            if (isNaN(num)) {
+                alert('Invalid number entered!');
+                return;
+            }
+            display.value = num;
+        }
+
+        // Additional validation on display change
+        display.addEventListener('input', function() {
+            // Basic validation - could be expanded
+            if (/[^0-9+\-*/.\s]/.test(display.value)) {
+                alert('Only numbers and operators (+, -, *, /, .) are allowed!');
+                display.value = display.value.replace(/[^0-9+\-*/.\s]/g, '');
+            }
+        });
+    </script>
+</body>
+</html>
