@@ -355,52 +355,15 @@ SEM-VI-Programs/
 
 ---
 
-## Assessment Guidelines
-
-### Term Work Assessment:
-- Continuous assessment based on overall laboratory performance
-- Parameters: Timely completion, performance, innovation, efficient code, punctuality
-- Regular assignment submissions and code reviews mandatory
-- Monthly practical examinations recommended
-
-### Laboratory Journal:
-**Must Include:**
-- Certificate and Index
-- Assignment write-up with:
-  - Title, Date of Completion
-  - Objectives and Problem Statement
-  - Software/Hardware Requirements
-  - Theory/Concept
-  - Algorithm/Flowchart
-  - Test cases and Test Data Set
-  - Mathematical Model (if applicable)
-  - Conclusion/Analysis
-  - Assessor's signature and grade
-
-**Softcopy Submission:**
-- Program codes with sample outputs
-- Use DVD/digital media (encouraged for Green IT)
-- Avoid printing papers (environment awareness)
-
-### Practical Examination:
-- Problem statement decided by internal and external examiners
-- Maximum weightage on satisfactory implementation
-- Questions to test understanding of fundamentals
-- Evaluation of effective and efficient implementation
-
----
-
 ## Important Notes
 
-1. **Attendance:** Minimum attendance as prescribed by SPPU is mandatory
-2. **Assignment Completion:**
+1. **Assignment Completion:**
    - DSBDAL: All 10 from Group A + Any 3 from Group B + Any 2 from Group C
    - WTL: All 11 assignments compulsory
    - LP-II: All AI assignments + Assignments from chosen elective
-3. **Mini Projects:** Required for DSBDAL, WTL, and some electives
-4. **Group Work:** Mini projects typically in groups of 2-3 students
-5. **Open Source:** Use of open-source software is highly encouraged
-6. **Virtual Labs:** Available for practice and reference
+2. **Mini Projects:** Required for DSBDAL, WTL, and some electives
+3. **Group Work:** Mini projects typically in groups of 2-3 students
+4. **Virtual Labs:** Available for practice and reference
 
 ---
 
@@ -437,7 +400,7 @@ SEM-VI-Programs/
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/A-C-I-D/SEM-VI-Programs
    cd SEM-VI-Programs
    ```
 
@@ -483,7 +446,6 @@ We welcome contributions! To contribute:
 ### Contribution Guidelines:
 - Follow proper code documentation
 - Include comments explaining logic
-- Provide test cases
 - Update README if necessary
 - Follow coding standards
 - Ensure no plagiarism
@@ -504,7 +466,6 @@ We welcome contributions! To contribute:
 
 ## Disclaimer
 
-- Created by students for students
 - Verify assignments with your college lab manual
 - Consult faculty for any discrepancies
 - Programs may need modifications based on specific requirements
@@ -517,7 +478,6 @@ We welcome contributions! To contribute:
 For queries, suggestions, or contributions:
 - **Open an Issue:** Use GitHub issues for bugs/questions
 - **Pull Request:** For code contributions
-- **Email:** Contact repository maintainers (if applicable)
 
 ---
 
